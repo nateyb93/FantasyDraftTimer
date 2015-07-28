@@ -1,0 +1,96 @@
+﻿<Page
+    x:Class="FantasyDraftTimer.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FantasyDraftTimer"
+    xmlns:UI="using:Microsoft.Advertising.WinRT.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.ColumnSpan="2" Grid.Row="0" Grid.Column="0" Margin="20">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="RD:" FontSize="108"/>
+                    <TextBlock Text="1" FontSize="108"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">
+                    <TextBlock Text="PICK:" FontSize="108"/>
+                    <TextBlock Text="1" FontSize="108"/>
+                </StackPanel>
+            </Grid>
+            
+            
+            <local:Timer MaxTime="600" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Size="XXXLarge" Margin="50" x:Name="Timer"/>
+            <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="108" Margin="50" Text="THE PICK IS IN" HorizontalAlignment="Left"/>
+            
+            <Grid Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="350"/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="Assets/fantfb.jpg" Grid.Column="0" Width="250"/>
+                <Button Grid.Column="1" HorizontalAlignment="Center" Content="SUBMIT PICK" FontSize="108" FontWeight="Light" Name="TimerButton" Click="TimerButton_Click"/>
+                <UI:AdControl 
+                    Grid.Column="2"
+                    ApplicationId="34d9cc0a-b0b6-4c01-8041-fa249683070a"
+                    AdUnitId="11528309"
+                    Width="250"
+                    Height="250" 
+                    Margin="50" 
+                    HorizontalAlignment="Left" 
+                    VerticalAlignment="Center"/>
+            </Grid>
+            
+            
+        </Grid>
+        
+        
+        <!--Overlay-->
+        <Grid Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Grid.Row="0" Orientation="Horizontal">
+                <AppBarButton Icon="Back" VerticalAlignment="Center" Margin="0,20,0,0"/>
+                <TextBlock FontSize="48" Text="settings" VerticalAlignment="Center" FontWeight="Light"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center">
+                <local:NumberPicker Min="4" Max="99" Size="XLarge" ShowDigits="False" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="2" Grid.Column="0" FontSize="72" Text="picks per round," Margin="20,0,20,0" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light"/>
+                <local:NumberPicker Min="4" Max="99" Size="XLarge" ShowDigits="False" VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="2" Grid.Column="0" FontSize="72" Text="round(s)." Margin="20,0,0,0" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light"/>
+            </StackPanel>
+
+
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center">
+                <TextBlock Grid.Row="2" Grid.Column="0" FontSize="72" Text="Time between picks" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light" Margin="0,0,20,0"/>
+                <local:NumberPicker Min="0" Max="60" Size="XLarge" ShowDigits="False" VerticalAlignment="Center"/>
+                <TextBlock FontSize="72" Text=":" VerticalAlignment="Center"/>
+                <local:NumberPicker Min="0" Max="60" Size="XLarge" ShowDigits="True" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <Button Grid.Row="3" HorizontalAlignment="Center" Content="DRAFT" Width="300" Background="Green" FontSize="72" FontWeight="Light"/>
+        </Grid>
+    </Grid>
+</Page>
