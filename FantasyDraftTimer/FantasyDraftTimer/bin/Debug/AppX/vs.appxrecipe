@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-28T04:32:20.274</Modified>
+      <Modified>2015-07-28T04:58:41.259</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\FantasyDraftTimer.exe">
       <PackagePath>FantasyDraftTimer.exe</PackagePath>
-      <Modified>2015-07-28T04:34:50.575</Modified>
+      <Modified>2015-07-28T05:02:51.488</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
       <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
@@ -60,9 +60,13 @@
       <PackagePath>Assets\fantfb.jpg</PackagePath>
       <Modified>2015-07-28T04:29:29.143</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Assets\SourceSansPro-Semibold.otf">
-      <PackagePath>Assets\SourceSansPro-Semibold.otf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Fonts\SourceSansPro-Semibold.otf">
+      <PackagePath>Fonts\SourceSansPro-Semibold.otf</PackagePath>
       <Modified>2015-07-28T03:21:29.248</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Fonts\Freshman.ttf">
+      <PackagePath>Fonts\Freshman.ttf</PackagePath>
+      <Modified>2015-07-28T04:53:15.370</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -90,23 +94,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-07-28T04:32:39.778</Modified>
+      <Modified>2015-07-28T05:02:51.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\NumberPicker.xbf">
       <PackagePath>NumberPicker.xbf</PackagePath>
-      <Modified>2015-07-28T04:32:39.778</Modified>
+      <Modified>2015-07-28T05:02:51.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\Timer.xbf">
       <PackagePath>Timer.xbf</PackagePath>
-      <Modified>2015-07-28T04:32:39.778</Modified>
+      <Modified>2015-07-28T05:02:51.134</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\FantasyDraftTimer.xr.xml">
       <PackagePath>FantasyDraftTimer.xr.xml</PackagePath>
-      <Modified>2015-07-28T04:32:39.765</Modified>
+      <Modified>2015-07-28T05:02:51.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-28T04:32:17.955</Modified>
+      <Modified>2015-07-28T04:58:38.837</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

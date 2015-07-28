@@ -25,18 +25,18 @@
                     <ColumnDefinition/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock Text="RD:" FontSize="108"/>
-                    <TextBlock Text="1" FontSize="108"/>
+                    <TextBlock Text="ROUND:" FontSize="108" FontFamily="/Fonts/Freshman.ttf#Freshman"/>
+                    <TextBlock Text="1" Margin="20,0,0,0" FontFamily="/Fonts/Freshman.ttf#Freshman" FontSize="108"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">
-                    <TextBlock Text="PICK:" FontSize="108"/>
-                    <TextBlock Text="1" FontSize="108"/>
+                    <TextBlock Text="PICK:" FontFamily="/Fonts/Freshman.ttf#Freshman" FontSize="108"/>
+                    <TextBlock Text="1" FontFamily="/Fonts/Freshman.ttf#Freshman" Margin="20,0,0,0" FontSize="108"/>
                 </StackPanel>
             </Grid>
             
             
             <local:Timer MaxTime="600" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Size="XXXLarge" Margin="50" x:Name="Timer"/>
-            <TextBlock Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="108" Margin="50" Text="THE PICK IS IN" HorizontalAlignment="Left"/>
+            <TextBlock Grid.Row="1" FontFamily="/Fonts/SourceSansPro-Semibold.otf#Source Sans Pro" Grid.Column="1" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="108" Margin="50" Text="ON THE CLOCK" HorizontalAlignment="Left"/>
             
             <Grid Grid.Row="2" Grid.RowSpan="2" Grid.ColumnSpan="2">
                 <Grid.ColumnDefinitions>
@@ -45,7 +45,7 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Image Source="Assets/fantfb.jpg" Grid.Column="0" Width="250"/>
-                <Button Grid.Column="1" HorizontalAlignment="Center" Content="SUBMIT PICK" FontSize="108" FontWeight="Light" Name="TimerButton" Click="TimerButton_Click"/>
+                <Button Grid.Column="1" HorizontalAlignment="Center" Content="SUBMIT" FontFamily="/Fonts/Freshman.ttf#Freshman" FontSize="108" FontWeight="Light" Name="TimerButton" Click="TimerButton_Click"/>
                 <UI:AdControl 
                     Grid.Column="2"
                     ApplicationId="34d9cc0a-b0b6-4c01-8041-fa249683070a"

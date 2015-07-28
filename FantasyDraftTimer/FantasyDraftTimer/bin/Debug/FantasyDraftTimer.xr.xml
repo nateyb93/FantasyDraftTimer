@@ -12,6 +12,7 @@
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumnSpan" />
@@ -40,6 +41,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Name" />
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="BorderThickness" />
       <RootEvent Name="Click" />
     </RootType>
@@ -50,6 +52,7 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontWeight" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="Name" />
     </RootType>
     <RootType FullName="FantasyDraftTimer.NumberPicker">

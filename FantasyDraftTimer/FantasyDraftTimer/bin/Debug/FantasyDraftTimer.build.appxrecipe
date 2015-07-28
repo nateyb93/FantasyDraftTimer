@@ -43,8 +43,11 @@
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Assets\fantfb.jpg">
       <PackagePath>Assets\fantfb.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Assets\SourceSansPro-Semibold.otf">
-      <PackagePath>Assets\SourceSansPro-Semibold.otf</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Fonts\SourceSansPro-Semibold.otf">
+      <PackagePath>Fonts\SourceSansPro-Semibold.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Fonts\Freshman.ttf">
+      <PackagePath>Fonts\Freshman.ttf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>

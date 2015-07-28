@@ -130,8 +130,9 @@
       <ConnectedServiceReference>FantasyTimer</ConnectedServiceReference>
     </Content>
     <Content Include="Assets\fantfb.jpg" />
-    <Content Include="Assets\SourceSansPro-Semibold.otf" />
+    <Content Include="Fonts\SourceSansPro-Semibold.otf" />
     <None Include="FantasyDraftTimer_TemporaryKey.pfx" />
+    <Content Include="Fonts\Freshman.ttf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.scale-100.png" />

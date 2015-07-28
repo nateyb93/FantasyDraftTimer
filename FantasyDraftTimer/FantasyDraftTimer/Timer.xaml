@@ -10,13 +10,15 @@
     d:DesignWidth="400">
     
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <TextBlock Text="00" FontSize="72" Name="MinutesText" HorizontalAlignment="Right" Grid.Column="0"/>
-        <TextBlock Text=":" FontSize="72" Grid.Column="1" Name="Colon"/>
-        <TextBlock Text="00" FontSize="72" Name="SecondsText" Grid.Column="2"/>
+        <Grid VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="00" FontSize="72" Name="MinutesText" HorizontalAlignment="Right" Grid.Column="0" FontFamily="/Fonts/SourceSansPro-Semibold.otf#Source Sans Pro" VerticalAlignment="Center"/>
+            <TextBlock Text=":" FontSize="72" Grid.Column="1" Name="Colon" FontFamily="/Fonts/SourceSansPro-Semibold.otf#Source Sans Pro" VerticalAlignment="Center"/>
+            <TextBlock Text="00" FontSize="72" Name="SecondsText" Grid.Column="2" FontFamily="/Fonts/SourceSansPro-Semibold.otf#Source Sans Pro" VerticalAlignment="Center"/>
+        </Grid>
     </Grid>
 </UserControl>
