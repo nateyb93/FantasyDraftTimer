@@ -131,6 +131,7 @@
     </Content>
     <Content Include="Assets\fantfb.jpg" />
     <Content Include="Fonts\SourceSansPro-Semibold.otf" />
+    <Content Include="Assets\nfl_draft_chime.mp3" />
     <None Include="FantasyDraftTimer_TemporaryKey.pfx" />
     <Content Include="Fonts\Freshman.ttf" />
   </ItemGroup>

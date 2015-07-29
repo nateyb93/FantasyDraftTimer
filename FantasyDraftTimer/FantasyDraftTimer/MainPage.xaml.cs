@@ -23,10 +23,24 @@ namespace FantasyDraftTimer
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        /// <summary>
+        /// Number of rounds in the draft
+        /// </summary>
         private int _numRounds;
+
+        /// <summary>
+        /// Number of picks per round of draft
+        /// </summary>
         private int _picksPerRound;
+
+        /// <summary>
+        /// Number of seconds per round of the draft
+        /// </summary>
         private int _secsPerRound;
 
+        /// <summary>
+        /// Number of seconds per round of the draft
+        /// </summary>
         private int _currentPick;
         private int _currentRound;
 
@@ -38,6 +52,11 @@ namespace FantasyDraftTimer
             Timer.MainPage = this;
         }
 
+        /// <summary>
+        /// Handles the click action for the timer button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TimerButton_Click(object sender, RoutedEventArgs e)
         {
             Timer.StartTimer();
@@ -52,6 +71,11 @@ namespace FantasyDraftTimer
             }
         }
 
+        /// <summary>
+        /// Handles click action for the start draft button
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void StartDraftClick_Click(object sender, RoutedEventArgs e)
         {
             _startDraft();
