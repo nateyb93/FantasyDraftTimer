@@ -10,6 +10,7 @@
       <RootProperty Name="Children" />
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Name" />
       <RootProperty Name="Visibility" />
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
@@ -23,6 +24,7 @@
       <RootMethod Name="SetRowSpan" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
       <RootProperty Name="Height" />
     </RootType>
@@ -34,14 +36,16 @@
       <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Name" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Content" />
       <RootProperty Name="Width" />
       <RootProperty Name="Background" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="Name" />
       <RootProperty Name="FontFamily" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Foreground" />
       <RootProperty Name="BorderThickness" />
       <RootEvent Name="Click" />
     </RootType>

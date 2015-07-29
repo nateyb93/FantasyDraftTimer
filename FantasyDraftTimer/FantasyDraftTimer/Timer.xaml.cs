@@ -24,10 +24,23 @@ namespace FantasyDraftTimer
         /// </summary>
         private int _timeLeft;
 
+        private int _maxTime;
         /// <summary>
         /// Total time allowed on the timer
         /// </summary>
-        public int MaxTime { get; set; }
+        public int MaxTime
+        {
+            get
+            {
+                return _maxTime;
+            }
+            set
+            {
+                _maxTime = value;
+                _timeLeft = _maxTime;
+                _updateText();
+            }
+        }
 
         /// <summary>
         /// Timer object that keeps track of how much time is left
@@ -90,6 +103,7 @@ namespace FantasyDraftTimer
             if (_timeLeft == 0)
             {
                 StopTimer();
+                MainPage.SubmitPick();
                 return;
             }
 

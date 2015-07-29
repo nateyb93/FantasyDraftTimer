@@ -26,11 +26,11 @@
                 </Grid.ColumnDefinitions>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                     <TextBlock Text="ROUND:" FontSize="108" FontFamily="/Fonts/Freshman.ttf#Freshman"/>
-                    <TextBlock Text="1" Margin="20,0,0,0" FontFamily="/Fonts/Freshman.ttf#Freshman" FontSize="108"/>
+                    <TextBlock Text="1" Margin="20,0,0,0" FontFamily="/Fonts/Freshman.ttf#Freshman" FontSize="108" Name="CurrentRoundText"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">
                     <TextBlock Text="PICK:" FontFamily="/Fonts/Freshman.ttf#Freshman" FontSize="108"/>
-                    <TextBlock Text="1" FontFamily="/Fonts/Freshman.ttf#Freshman" Margin="20,0,0,0" FontSize="108"/>
+                    <TextBlock Text="1" FontFamily="/Fonts/Freshman.ttf#Freshman" Margin="20,0,0,0" FontSize="108" Name="CurrentPickText"/>
                 </StackPanel>
             </Grid>
             
@@ -45,7 +45,7 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <Image Source="Assets/fantfb.jpg" Grid.Column="0" Width="250"/>
-                <Button Grid.Column="1" HorizontalAlignment="Center" Content="SUBMIT" FontFamily="/Fonts/Freshman.ttf#Freshman" FontSize="108" FontWeight="Light" Name="TimerButton" Click="TimerButton_Click"/>
+                <Button Grid.Column="1" HorizontalAlignment="Center" Content="SUBMIT" FontFamily="/Fonts/Freshman.ttf#Freshman" FontSize="108" FontWeight="Light" Name="TimerButton" Click="TimerButton_Click" BorderBrush="Transparent" Foreground="Green"/>
                 <UI:AdControl 
                     Grid.Column="2"
                     ApplicationId="34d9cc0a-b0b6-4c01-8041-fa249683070a"
@@ -62,7 +62,7 @@
         
         
         <!--Overlay-->
-        <Grid Visibility="Collapsed">
+        <Grid Visibility="Visible" Background="{StaticResource ApplicationPageBackgroundThemeBrush}" Name="StartOverlayGrid">
             <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
                 <RowDefinition/>
@@ -76,21 +76,21 @@
             </StackPanel>
 
             <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.ColumnSpan="2" HorizontalAlignment="Center">
-                <local:NumberPicker Min="4" Max="99" Size="XLarge" ShowDigits="False" VerticalAlignment="Center"/>
+                <local:NumberPicker Min="4" Max="99" Size="XLarge" ShowDigits="False" VerticalAlignment="Center" x:Name="PicksPicker"/>
                 <TextBlock Grid.Row="2" Grid.Column="0" FontSize="72" Text="picks per round," Margin="20,0,20,0" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light"/>
-                <local:NumberPicker Min="4" Max="99" Size="XLarge" ShowDigits="False" VerticalAlignment="Center"/>
+                <local:NumberPicker Min="4" Max="99" Size="XLarge" ShowDigits="False" VerticalAlignment="Center" x:Name="RoundsPicker"/>
                 <TextBlock Grid.Row="2" Grid.Column="0" FontSize="72" Text="round(s)." Margin="20,0,0,0" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light"/>
             </StackPanel>
 
 
             <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center">
                 <TextBlock Grid.Row="2" Grid.Column="0" FontSize="72" Text="Time between picks" HorizontalAlignment="Right" VerticalAlignment="Center" FontWeight="Light" Margin="0,0,20,0"/>
-                <local:NumberPicker Min="0" Max="60" Size="XLarge" ShowDigits="False" VerticalAlignment="Center"/>
+                <local:NumberPicker Min="0" Max="60" Size="XLarge" ShowDigits="False" VerticalAlignment="Center" x:Name="MinPicker"/>
                 <TextBlock FontSize="72" Text=":" VerticalAlignment="Center"/>
-                <local:NumberPicker Min="0" Max="60" Size="XLarge" ShowDigits="True" VerticalAlignment="Center"/>
+                <local:NumberPicker Min="0" Max="60" Size="XLarge" ShowDigits="True" VerticalAlignment="Center" x:Name="SecPicker"/>
             </StackPanel>
 
-            <Button Grid.Row="3" HorizontalAlignment="Center" Content="DRAFT" Width="300" Background="Green" FontSize="72" FontWeight="Light"/>
+            <Button Grid.Row="3" HorizontalAlignment="Center" Content="DRAFT" Width="300" Background="Green" FontSize="72" FontWeight="Light" Click="StartDraftClick_Click" Name="StartDraftClick"/>
         </Grid>
     </Grid>
 </Page>

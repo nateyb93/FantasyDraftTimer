@@ -8,7 +8,7 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>a030b34f-77a8-4e49-90bf-6169dd68c0b4</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>DC25EFC25C328D0096FC8542844F9ABF2EECB1D3793B2AC6C13BC4BE0A0D3D42</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>FA652B91F8BF92341995889BDE02C9F5A04FD479023181CB54122E48DFCB284C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a030b34f-77a8-4e49-90bf-6169dd68c0b4_1.0.0.0_neutral__ajc0x0rvn3gg0</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a030b34f-77a8-4e49-90bf-6169dd68c0b4_ajc0x0rvn3gg0!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a030b34f-77a8-4e49-90bf-6169dd68c0b4</RegisteredPackageID>
@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-28T04:58:41.259</Modified>
+      <Modified>2015-07-29T20:50:24.412</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\FantasyDraftTimer.exe">
       <PackagePath>FantasyDraftTimer.exe</PackagePath>
-      <Modified>2015-07-28T05:02:51.488</Modified>
+      <Modified>2015-07-29T20:57:54.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSAdvertisingXaml\8.1\References\CommonConfiguration\neutral\Microsoft.Advertising.WinRT.UI.winmd">
       <PackagePath>Microsoft.Advertising.WinRT.UI.winmd</PackagePath>
@@ -90,27 +90,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-07-28T04:32:17.320</Modified>
+      <Modified>2015-07-29T20:50:21.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-07-28T05:02:51.134</Modified>
+      <Modified>2015-07-29T20:52:23.239</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\NumberPicker.xbf">
       <PackagePath>NumberPicker.xbf</PackagePath>
-      <Modified>2015-07-28T05:02:51.134</Modified>
+      <Modified>2015-07-29T20:50:21.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\Timer.xbf">
       <PackagePath>Timer.xbf</PackagePath>
-      <Modified>2015-07-28T05:02:51.134</Modified>
+      <Modified>2015-07-29T20:50:21.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\FantasyDraftTimer.xr.xml">
       <PackagePath>FantasyDraftTimer.xr.xml</PackagePath>
-      <Modified>2015-07-28T05:02:51.124</Modified>
+      <Modified>2015-07-29T20:52:23.232</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nathan\Documents\GitHub\FantasyDraftTimer\FantasyDraftTimer\FantasyDraftTimer\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-28T04:58:38.837</Modified>
+      <Modified>2015-07-29T20:50:21.715</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
